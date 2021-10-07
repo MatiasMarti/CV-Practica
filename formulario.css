@@ -1,29 +1,104 @@
-h2{
-    background-color: rgb(189, 189, 189);
+
+
+
+
+.texto p{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+
+}
+.texto h2 ,.texto h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+.iconos{
+   font-size: 50px;
+}
+
+
+.caja1
+{
+    width: 400px;
+    height: 500px;
     text-align: center;
-    font-weight: 100;
-    
+    box-shadow:0 0 15px black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+.caja2
+{
+    background: #bdbdbd;
+background: linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+background: -webkit-linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+background: -moz-linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+text-align: center;
+color: white;
+width: 400px;
+height:100px;
+box-shadow:0 0 15px black;
+margin-bottom: 20px;
+padding: 10px;
 
 }
 
-h3{
-    color: rgb(97, 97, 97);
-    font-weight: 100;
-    font-style: italic;
-}
-h1{
-    color: rgb(0, 0, 0);
-    font-weight: 100;
-    font-style: italic;
-}
-p{
-    color: rgb(97, 97, 97);
-    font-weight: 100;
-    font-style: italic;
-}
-/*ejemplo de clase*/
 
-.DESTACADOS{
-color:rgb(0, 10, 99) ;
-font-size: 20px;
+.caja3
+{
+    background: #bdbdbd;
+background: linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+background: -webkit-linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+background: -moz-linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+text-align: center;
+color: white;
+width: 400px;
+height:150px;
+box-shadow:0 0 15px black;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+.caja4
+{
+    background: #bdbdbd;
+background: linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+background: -webkit-linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+background: -moz-linear-gradient(92deg,#bdbdbd 0%, #0057ff 80%);
+text-align: center;
+color: white;
+width: 400px;
+height:150px;
+box-shadow:0 0 15px black;
+margin-bottom: 20px;
+padding: 10px;
+
+}
+
+.caja5
+{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: lightcyan;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.caja6
+{
+width:500px ;
+column-gap: 50px;
+column-count: 2;
+background-color: cadetblue;
+}
+.caja5 h2 , h1 , h3 {font-family: 'Alfa Slab One', cursive;}
+.caja6 h2 , h1 , h3 {font-family: 'Alfa Slab One', cursive;}
+
+
+.iconos {
+    font-size:50px;
+    color: rgb(189, 9, 9);
 }
